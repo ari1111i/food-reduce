@@ -12,7 +12,7 @@ export const AmountForm = () => {
   return (
     <div>
       <BundleCount>
-        <h3 onClick={handleClicked}>AMOUT</h3>
+        <h3 onClick={handleClicked}>AMOUNT</h3>
         <input
           ref={inputRef}
           type="number"

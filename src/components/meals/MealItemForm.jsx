@@ -1,7 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useReducer } from "react";
 import { styled } from "styled-components";
 import { Button } from "../UI/Button";
 import { SystemIcon } from "../../assets";
+
+const formReducer = (state, action) => {
+  switch (action.type) {
+    case 'submit':
+      return {
+        ...state,
+      };
+      default:
+        return state;
+  }
+};
 
 export const MealItemForm = ({ inputId, onAddMeal }) => {
   const [enteredAmount, setEnteredAmount] = useState(1);
@@ -28,7 +39,7 @@ export const MealItemForm = ({ inputId, onAddMeal }) => {
           onChange={amountChangeHnadler}
         />
       </InputWrapper>
-      <Button IconComponent={SystemIcon} size="small">
+      <Button type="BUTTON_CHANGE" IconComponent={SystemIcon} size="small">
         ADD
       </Button>
     </FormContainer>
