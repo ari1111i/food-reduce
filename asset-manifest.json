@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-food-reduce/static/css/main.39357b84.css",
+    "main.js": "/react-food-reduce/static/js/main.78d59deb.js",
+    "static/media/meals-image.png": "/react-food-reduce/static/media/meals-image.143988d4584c16a1e461.png",
+    "static/media/backet-icon.svg": "/react-food-reduce/static/media/backet-icon.00b4f6209098c4b6596d385d8cfa0e1f.svg",
+    "index.html": "/react-food-reduce/index.html",
+    "static/media/system-icon.svg": "/react-food-reduce/static/media/system-icon.b8a001afefc325562f9c1143fc9f21cd.svg",
+    "static/media/plus-icon.svg": "/react-food-reduce/static/media/plus-icon.b776db3049759138851bfd74cfed1b0a.svg",
+    "static/media/minus-icon.svg": "/react-food-reduce/static/media/minus-icon.6656a378ce3b9c4d04a0d9ed0d3bbe32.svg",
+    "main.39357b84.css.map": "/react-food-reduce/static/css/main.39357b84.css.map",
+    "main.78d59deb.js.map": "/react-food-reduce/static/js/main.78d59deb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39357b84.css",
+    "static/js/main.78d59deb.js"
+  ]
+}
